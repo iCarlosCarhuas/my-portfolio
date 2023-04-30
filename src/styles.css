@@ -1,0 +1,184 @@
+body{
+	background:url('../background.jpg') no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+.bar {
+	height:40px;
+	width:0%;
+	background: #ea580c;
+}
+
+.html {
+	border-radius: 0.5rem;
+	animation: html 3s linear forwards;
+}
+
+@keyframes html {
+	100%{
+		width: 100%;
+	}
+}
+
+.bar2 {
+	height:40px;
+	width:0%;
+	background: #1d4ed8;
+}
+
+.css {
+	border-radius: 0.5rem;
+	animation: css 4s linear forwards;
+}
+
+@keyframes css {
+	100%{
+		width: 90%;
+	}
+}
+
+.bar3 {
+	height:40px;
+	width:0%;
+	background: yellow;
+}
+
+.js {
+	border-radius: 0.5rem;
+	animation: js 5s linear forwards;
+}
+
+@keyframes js {
+	100%{
+		width: 80%;
+	}
+}
+
+.bar4 {
+	height:40px;
+	width:0%;
+	background: yellow;
+}
+
+.es6 {
+	border-radius: 0.5rem;
+	animation: es6 6s linear forwards;
+}
+
+@keyframes es6 {
+	100%{
+		width: 70%;
+	}
+}
+
+.bar5 {
+	height:40px;
+	width:0%;
+	background: #06b6d4;
+}
+
+.tailwindcss {
+	border-radius: 0.5rem;
+	animation: tailwindcss 7s linear forwards;
+}
+
+@keyframes tailwindcss {
+	100%{
+		width: 90%;
+	}
+}
+
+.bar6 {
+	height:40px;
+	width:0%;
+	background: #67e8f9;
+}
+
+.react {
+	border-radius: 0.5rem;
+	animation: react 8s linear forwards;
+}
+
+@keyframes react {
+	100%{
+		width: 60%;
+	}
+}
+
+.bar7 {
+	height:40px;
+	width:0%;
+	background: #059669;
+}
+
+.mongodb {
+	border-radius: 0.5rem;
+	animation: mongodb 9s linear forwards;
+}
+
+@keyframes mongodb {
+	100%{
+		width: 50%;
+	}
+}
+
+.bar8 {
+	height:40px;
+	width:0%;
+	background: #f472b6;
+}
+
+.graphql {
+	border-radius: 0.5rem;
+	animation: graphql 10s linear forwards;
+}
+
+@keyframes graphql {
+	100%{
+		width: 50%;
+	}
+}
+
+.bar9 {
+	height:40px;
+	width:0%;
+	background: #ea580c;
+}
+
+.git {
+	border-radius: 0.5rem;
+	animation: git 11s linear forwards;
+}
+
+@keyframes git {
+	100%{
+		width: 80%;
+	}
+}
+
+.hide-animation{
+	display: hidden;
+
+}
+
+/*H Animation*/
+
+.scroll-section-outer {
+	overflow: hidden;
+}
+
+.scroll-section-inner {
+	height: 100vh;
+	width: 700vw;  /*Based on the amount of HSections (i.e, 4*100vw = 400wv)*/
+	display: flex;
+	flex-direction: row; 
+	position: relative;
+}
+
+.scroll-section{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+ 
